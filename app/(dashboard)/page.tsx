@@ -11,6 +11,20 @@ import {
 } from "@/components/ui/sidebar"
 
 export function AppSidebar() {
+    const menuItems = [
+        {icon: "",label:"Home" , href:"/", visible:["admin"]},
+        {icon: "",label:"Teachers" , href:"/teacher", visible:["admin"]},
+        {icon: "",label:"Students" , href:"/student", visible:["admin"]},
+        {icon: "",label:"Parents" , href:"/parent", visible:["admin"]},
+        {icon: "",label:"Classes" , href:"", visible:["admin"]},
+        {icon: "",label:"Lessons" , href:"", visible:["admin"]},
+        {icon: "",label:"Exams" , href:"", visible:["admin"]},
+        {icon: "",label:"Assignments" , href:"", visible:["admin"]},
+        {icon: "",label:"Attendance" , href:"", visible:["admin"]},
+        {icon: "",label:"Events" , href:"", visible:["admin"]},
+        {icon: "",label:"Messages" , href:"", visible:["admin"]},
+        {icon: "",label:"Announcements" , href:"", visible:["admin"]},
+    ]
   return (
     <Sidebar>
       <SidebarHeader>
