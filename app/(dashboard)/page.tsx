@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/sidebar"
 
 export function AppSidebar() {
-    const items = ["fd" , "f"]
   return (
     <Sidebar>
       <SidebarHeader>
@@ -28,11 +27,9 @@ export function AppSidebar() {
             </SidebarMenuItem>
 
             <SidebarMenuItem>
-              <SidebarMenuButton>{items.map((item,index)=>{
-                return <div key={index}>
-                     {item}
-                </div>
-              })}</SidebarMenuButton>
+              <SidebarMenuButton>
+                {}
+              </SidebarMenuButton>
             </SidebarMenuItem>
 
             <SidebarMenuItem>
